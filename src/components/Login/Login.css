@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+.login-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    /* Light Pastel Gradient */
+    background:linear-gradient(
+        135deg,
+        #FFF8C9 0%,
+        #DFF6FF 35%,
+        #E7F9E7 70%,
+        #FFE5EC 100%
+    );
+}
+
+.login-card{
+    width:420px;
+    background:rgba(255,255,255,0.85);
+    backdrop-filter:blur(12px);
+    border-radius:22px;
+    padding:45px 40px;
+    box-shadow:0 12px 35px rgba(0,0,0,0.08);
+    border:1px solid rgba(255,255,255,0.7);
+
+    display:flex;
+    flex-direction:column;
+}
+
+.login-card h1{
+    text-align:center;
+    color:#4A6FA5;
+    font-size:34px;
+    margin-bottom:8px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#6B7280;
+    margin-bottom:30px;
+    font-size:15px;
+}
+
+.login-card input{
+    margin-bottom:18px;
+    padding:15px;
+
+    border:1px solid #D7E3FC;
+    border-radius:12px;
+
+    outline:none;
+    font-size:16px;
+
+    background:#FFFFFF;
+    transition:.3s;
+}
+
+.login-card input::placeholder{
+    color:#9CA3AF;
+}
+
+.login-card input:focus{
+    border-color:#7DD3FC;
+    box-shadow:0 0 0 4px rgba(125,211,252,.25);
+}
+
+.login-card button{
+    margin-top:10px;
+    padding:15px;
+
+    border:none;
+    border-radius:12px;
+
+    font-size:17px;
+    font-weight:600;
+    color:#374151;
+
+    cursor:pointer;
+
+    background:linear-gradient(
+        90deg,
+        #FFE082,
+        #81D4FA
+    );
+
+    transition:.3s;
+}
+
+.login-card button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 22px rgba(129,212,250,.35);
+}
+
+.error{
+    margin-top:18px;
+    text-align:center;
+    color:#EF4444;
+}
+
+.error a{
+    color:#2563EB;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.error a:hover{
+    text-decoration:underline;
+}
+
+@media(max-width:500px){
+
+.login-card{
+    width:90%;
+    padding:35px 25px;
+}
+
+.login-card h1{
+    font-size:28px;
+}
+
+}

@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": "9ab3",
+      "name": "divya",
+      "email": "divs@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "dea4",
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "9d5d",
+      "name": "John",
+      "email": "john@gmail.com",
+      "password": "123123"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Men's Casual Shirt",
+      "description": "Comfortable cotton shirt suitable for daily wear.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro assumenda nulla nihil? " ,
+      "price": 799,
+      "category": "mens wear",
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf"
+    },
+    {
+      "id": 2,
+      "title": "Men's Denim Jacket",
+      "description": "Stylish denim jacket with a modern fit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro assumenda nulla nihil?",
+      "price": 1499,
+      "category": "mens wear",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    },
+    {
+      "id": 3,
+      "title": "Men's Formal Trouser",
+      "description": "Slim-fit formal trousers for office and events.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro assumenda nulla nihil?",
+      "price": 999,
+      "category": "mens wear",
+      "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a"
+    },
+
+    {
+      "id": 4,
+      "title": "Women's Floral Dress",
+      "description": "Elegant floral dress perfect for casual outings.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro assumenda nulla nihil?",
+      "price": 1299,
+      "category": "womens wear",
+      "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c"
+    },
+    {
+      "id": 5,
+      "title": "Women's Kurti",
+      "description": "Traditional cotton kurti with beautiful prints. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro assumenda nulla nihil?",
+      "price": 899,
+      "category": "womens wear",
+      "image": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03"
+    },
+    {
+      "id": 6,
+      "title": "Women's Denim Jeans",
+      "description": "Stretchable slim-fit jeans for everyday comfort.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro assumenda nulla nihil?",
+      "price": 1199,
+      "category": "womens wear",
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246"
+    },
+
+    {
+      "id": 7,
+      "title": "Kids Cartoon T-Shirt",
+      "description": "Soft cotton t-shirt featuring cartoon characters.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro assumenda nulla nihil?",
+      "price": 499,
+      "category": "kids wear",
+      "image": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea"
+    },
+    {
+      "id": 8,
+      "title": "Kids Party Dress",
+      "description": "Colorful party dress for special occasions. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro assumenda nulla nihil? ",
+      "price": 899,
+      "category": "kids wear",
+      "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef"
+    },
+    {
+      "id": 9,
+      "title": "Kids Hooded Sweatshirt",
+      "description": "Warm and comfortable hoodie for winter.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro assumenda nulla nihil?",
+      "price": 699,
+      "category": "kids wear",
+      "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9"
+    },
+
+    {
+      "id": 10,
+      "title": "Running Shoes",
+      "description": "Lightweight running shoes with cushioned sole.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro assumenda nulla nihil? ",
+      "price": 1999,
+      "category": "footwear",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+    },
+    {
+      "id": 11,
+      "title": "Leather Loafers",
+      "description": "Premium leather loafers for formal occasions.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro assumenda nulla nihil? ",
+      "price": 2499,
+      "category": "footwear",
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2"
+    },
+    {
+      "id": 12,
+      "title": "Casual Sneakers",
+      "description": "Trendy sneakers for everyday style and comfort.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro assumenda nulla nihil?",
+      "price": 1799,
+      "category": "footwear",
+      "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519"
+    }
+  ],
+
+
+  "$schema": "./node_modules/json-server/schema.json"
+}

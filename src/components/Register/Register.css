@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+.register-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(
+        135deg,
+        #FFF9C4 0%,
+        #E3F2FD 35%,
+        #E8F5E9 70%,
+        #FCE4EC 100%
+    );
+}
+
+.register-card{
+
+    width:430px;
+
+    background:rgba(255,255,255,.88);
+
+    backdrop-filter:blur(12px);
+
+    border-radius:22px;
+
+    padding:45px 40px;
+
+    border:1px solid rgba(255,255,255,.8);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    display:flex;
+    flex-direction:column;
+}
+
+.register-card h1{
+
+    text-align:center;
+
+    color:#4A6FA5;
+
+    margin-bottom:8px;
+
+    font-size:34px;
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#6B7280;
+
+    margin-bottom:28px;
+}
+
+.register-card input{
+
+    margin-bottom:18px;
+
+    padding:15px;
+
+    border:1px solid #D7E3FC;
+
+    border-radius:12px;
+
+    outline:none;
+
+    font-size:16px;
+
+    background:white;
+
+    transition:.3s;
+}
+
+.register-card input:focus{
+
+    border-color:#7DD3FC;
+
+    box-shadow:0 0 0 4px rgba(125,211,252,.25);
+}
+
+.register-card button{
+
+    margin-top:10px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    color:#374151;
+
+    background:linear-gradient(
+        90deg,
+        #FFE082,
+        #81D4FA
+    );
+
+    transition:.3s;
+}
+
+.register-card button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 22px rgba(129,212,250,.35);
+}
+
+.error{
+
+    margin-top:20px;
+
+    text-align:center;
+
+    color:#EF4444;
+
+    font-size:15px;
+}
+
+.error a{
+
+    color:#2563EB;
+
+    font-weight:600;
+
+    text-decoration:none;
+}
+
+.error a:hover{
+
+    text-decoration:underline;
+}
+
+@media(max-width:500px){
+
+.register-card{
+
+    width:90%;
+
+    padding:35px 25px;
+}
+
+.register-card h1{
+
+    font-size:28px;
+}
+
+}
